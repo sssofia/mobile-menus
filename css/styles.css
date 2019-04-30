@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: #ddd;
+    padding: 5px 15px;
+    height: 45px;
+    position: relative;
+    z-index: 999;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 18px;
+    float: left;
+}
+
+.mobile-icon {
+    float: right;
+}
+
+.close-icon {
+    margin: 10px 15px;
+    float: right;
+}
+
+.mobile-icon img,
+.close-icon img {
+    width: 40px;
+    float: right;
+}
+
+.menu {
+    height: 100vh;
+    background: #ccc;
+    width: 100%;
+    color: #333;
+    margin-top: -16px;
+    padding-top: 16px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding: 10px 10px 20px;
+}
+
+.menu ul {
+    margin-top: 30vh;
+}
+
+.menu ul li a {
+    color: #333;
+}

@@ -3,14 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mobile Menus - Javascript</title>
+        <title>Mobile Menus - jQuery</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>   
         <div id="mobile-menu" class="menu" style="display:none;">
-            <button onclick="toggleMobile()" class="close-icon"><img src="images/close-icon.png"></button>
+            <button id="hide-mobile-fade" class="close-icon"><img src="images/close-icon.png"></button>
             <ul>
-                <li><a href="jquery-example.html">jQuery Version</a></li>
+                <li><a href="index.html">Javascript Version</a></li>
                 <li>Link 1</li>
                 <li>Link 2</li>
                 <li>Link 3</li>
@@ -18,9 +18,11 @@
             </ul>
         </div> 
         <nav>
-            <h1>Mobile Menus - Javascript</h1>
-            <button onclick="toggleMobile()" class="mobile-icon"><img src="images/menu-icon.png"></button>
+            <h1>Mobile Menus - jQuery</h1>
+            <button id="show-mobile-fade" class="mobile-icon"><img src="images/menu-icon.png"></button>
         </nav>        
     </body>
-    <script src="js/mobile-menu-javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/mobile-menu-jquery.js"></script>
 </html>
